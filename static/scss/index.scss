@@ -93,6 +93,7 @@ header {
 
           > .aside-sub-menu-title {
             display: block;
+            font-weight: bold;
 
             > a{
               display: flex;
@@ -200,8 +201,10 @@ header {
         &:last-child {
           padding: 0;
 
-          &:after {
-            border: none;
+          > div {
+            &:after {
+              border: none;
+            }
           }
         }
       }
@@ -422,7 +425,13 @@ footer {
       }
 
       > .footer-section3-right {
+        display: flex;
         margin-left: auto;
+
+        > span {
+          margin-top: 10px;
+          margin-right: 10px;
+        }
       }
     }
 
@@ -456,6 +465,24 @@ footer {
 
     > .aside-logo{
       display: flex;
+    }
+  }
+
+  footer {
+    .footer-section1 {
+      display: block !important;
+
+      > .footer-section1-right {
+        margin-top: 20px;
+      }
+    }
+
+    .footer-section3 {
+      display: block !important;
+
+      span {
+        margin-top: 0 !important;
+      }
     }
   }
 }

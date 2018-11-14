@@ -97,6 +97,7 @@ header > aside > div > .aside-items > .aside-menu-wrap {
 
 header > aside > div > .aside-items > .aside-menu-wrap > .aside-sub-menu-title {
   display: block;
+  font-weight: bold;
 }
 
 header > aside > div > .aside-items > .aside-menu-wrap > .aside-sub-menu-title > a {
@@ -201,7 +202,7 @@ header > .header-container > .center-header > div:last-child {
   padding: 0;
 }
 
-header > .header-container > .center-header > div:last-child:after {
+header > .header-container > .center-header > div:last-child > div:after {
   border: none;
 }
 
@@ -419,7 +420,13 @@ footer > .footer-container > .footer-section3 > .footer-section3-left > p {
 }
 
 footer > .footer-container > .footer-section3 > .footer-section3-right {
+  display: flex;
   margin-left: auto;
+}
+
+footer > .footer-container > .footer-section3 > .footer-section3-right > span {
+  margin-top: 10px;
+  margin-right: 10px;
 }
 
 footer > .footer-container > .footer-section4 > p {
@@ -443,5 +450,17 @@ footer > .footer-container > .footer-section4 > p {
   }
   header > .aside-logo {
     display: flex;
+  }
+  footer .footer-section1 {
+    display: block !important;
+  }
+  footer .footer-section1 > .footer-section1-right {
+    margin-top: 20px;
+  }
+  footer .footer-section3 {
+    display: block !important;
+  }
+  footer .footer-section3 span {
+    margin-top: 0 !important;
   }
 }

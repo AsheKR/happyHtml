@@ -65,3 +65,24 @@
   height: 28px;
   background-position: -77px -127px;
 }
+
+.certi_1 {
+  display: block;
+  width: 85px;
+  height: 32px;
+  background-position: 0 -165px;
+}
+
+.certi_2 {
+  display: block;
+  width: 92px;
+  height: 32px;
+  background-position: -94px -165px
+}
+
+.certi_3 {
+  display: block;
+  width: 70px;
+  height: 32px;
+  background-position: 0 -207px
+}
